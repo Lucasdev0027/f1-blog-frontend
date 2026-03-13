@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header e Logo */
+.main-header {
+    padding: 10px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-f1 {
+    width: 100px;
+}
+
+.titulo-site {
+    color: red;
+    margin-left: 15px;
+    font-size: 2.5rem;
+}
+
+/* Menu e Botões (Aumentados) */
+.menu-navegacao {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-menu {
+    padding: 12px 25px; /* Aumenta o tamanho interno */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f00a0a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.btn-menu:hover {
+    background-color: red;
+}
+
+/* Conteúdo e News */
+.sessao-titulo {
+    color: red;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    margin-top: 30px;
+}
+
+/* Calendário Estilizado */
+.calendario-container {
+    max-width: 100px;
+}
+
+.card-corrida {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bandeira {
+    width: 40px;
+    border: 1px solid #ddd;
+}
+
+.card-corrida h3 {
+    margin: 0 0 0 20px;
+    color: #15151e;
+    font-size: 1.1rem;
+}
